@@ -24,22 +24,22 @@ describe("Attack", () => {
   });
 
   it('has title Supernova', async () => {
-    expect(attack.title).toBe('Supernova')
+    expect(attack.title).toBe('Supernova');
   });
 
   it('has a mojoCost', async () => {
-    expect(attack).toHaveProperty('mojoCost')
+    expect(attack).toHaveProperty('mojoCost');
   });
 
   it('has a mojoCost of 4', async () => {
-    expect(attack.mojoCost).toBe(4)
+    expect(attack.mojoCost).toBe(4);
   });
 
   it('has a staminaCost', async () => {
-    expect(attack).toHaveProperty('staminaCost')
+    expect(attack).toHaveProperty('staminaCost');
   });
 
   it('has a staminaCost of 1000', async () => {
-    expect(attack.staminaCost).toBe(1000)
+    expect(attack.staminaCost).toBe(1000);
   });
 });

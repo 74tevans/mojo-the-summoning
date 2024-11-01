@@ -1,5 +1,5 @@
 const { describe, it, expect, beforeAll, afterAll } = require("@jest/globals");
-const { User } = require(".");
+const { User, Deck } = require(".");
 const {db} = require("../db/config");
 
 // define in global scope
@@ -24,6 +24,6 @@ describe("User", () => {
   });
 
   it('has username Gandalf', async () => {
-    expect(user.username).toBe('Gandalf')
+    expect(user.username).toBe('Gandalf');
   });
 });

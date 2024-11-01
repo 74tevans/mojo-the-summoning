@@ -24,15 +24,15 @@ describe("Card", () => {
   });
 
   it('has name Stardust Dragon', async () => {
-    expect(card.name).toBe('Stardust Dragon')
+    expect(card.name).toBe('Stardust Dragon');
   });
 
   it('has a mojo', async () => {
-    expect(card).toHaveProperty('mojo')
+    expect(card).toHaveProperty('mojo');
   });
 
   it('has a mojo of 8', async () => {
-    expect(card.mojo).toBe(8)
+    expect(card.mojo).toBe(8);
   });
 
   it('has a stamina', async () => {
@@ -40,14 +40,14 @@ describe("Card", () => {
   });
 
   it('has a stamina of 2000', async () => {
-    expect(card.stamina).toBe(2000)
+    expect(card.stamina).toBe(2000);
   });
 
   it('has an imgUrl', async () => {
-    expect(card).toHaveProperty('imgUrl')
+    expect(card).toHaveProperty('imgUrl');
   });
 
   it('has the correct image URL', async () => {
-    expect(card.imgUrl).toBe('https://static.wikia.nocookie.net/yugioh/images/0/0a/StardustDragon-DAMA-EN-StR-1E.png/revision/latest?cb=20230429203302')
+    expect(card.imgUrl).toBe('https://static.wikia.nocookie.net/yugioh/images/0/0a/StardustDragon-DAMA-EN-StR-1E.png/revision/latest?cb=20230429203302');
   });
 });
